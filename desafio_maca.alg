@@ -1,4 +1,4 @@
-algoritmo "desafio_maçã"
+algoritmo "desafio_maÃ§Ã£"
 var
 		preco_duzia, valor_total, valor_com_desconto, valor_desconto, valor_pago, desconto, valor_troco: real
 		qtd, desconto_porcentagem: inteiro
