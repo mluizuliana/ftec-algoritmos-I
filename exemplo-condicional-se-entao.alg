@@ -1,4 +1,4 @@
-algoritmo "exemploCondicional2"
+algoritmo "exemploCondicionalSeEntao"
 var
   n1, n2: inteiro
 inicio
