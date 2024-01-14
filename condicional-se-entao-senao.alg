@@ -1,6 +1,10 @@
 algoritmo "quente_frio"
-var
+var 
+
+       // Escreva um algoritmo que leia um número que represente uma temperatura e escreva “quente”, se a temperatura for maior que 30 e escreva “frio” caso contrário.
+       
        n1, n2, subtracao, soma: inteiro
+
 inicio
 
       escreval("Digite o primeiro número: ")
