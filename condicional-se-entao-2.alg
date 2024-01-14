@@ -1,4 +1,4 @@
-algoritmo "NumerosIguais"
+algoritmo "numeros_iguais"
 var
   n1, n2: inteiro
 inicio
