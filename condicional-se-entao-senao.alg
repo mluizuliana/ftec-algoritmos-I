@@ -1,4 +1,4 @@
-algoritmo "QuenteFrio"
+algoritmo "quente_frio"
 var
        n1, n2, subtracao, soma: inteiro
 inicio
