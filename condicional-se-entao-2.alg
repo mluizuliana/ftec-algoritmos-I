@@ -1,4 +1,4 @@
-algoritmo "exemploCondicionalSeEntao"
+algoritmo "NumerosIguais"
 var
   n1, n2: inteiro
 inicio
