@@ -6,6 +6,7 @@ var
    n1, n2: inteiro
    
 inicio
+
    escreval("Digite dois números: )
    leia(n1)
    leia(n2)
@@ -14,4 +15,5 @@ inicio
    senao
       escreval("Os dois números são menores que 20.")
    fimse
+
 fimalgoritmo
