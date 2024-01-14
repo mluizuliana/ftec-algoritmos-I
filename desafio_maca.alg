@@ -1,5 +1,13 @@
 algoritmo "desafio_maçã"
 var
+		//Sr. Pedro é um produtor de maçãs na serra gaúcha, e necessita de auxílio para calcular o valor que seus clientes pagam pelas compras de seus produtos na feira de sua cidade e se é necessário dar troco após o pagamento. 
+
+		//O preço do produto é fornecido em dúzia, devendo este ser lido no algoritmo, assim como a quantidade (em unidades) de maçãs que o cliente vai comprar.
+
+		//Pedro deseja dar um desconto para o seu cliente, buscando a sua fidelização. Desta forma o índice (%) de desconto deverá ser dado sobre o valor da compra, deve ser informado como dado de entrada.
+
+		//Pedro deseja receber as seguintes informções: o valor total da compra do cliente em R$ (sem o desconto), o valor do desconto em R$, o valor final da compra em R$, já aplicado ao desconto e se necessário dar troco ao cliente após o pagamento. 
+
 		preco_duzia, valor_total, valor_com_desconto, valor_desconto, valor_pago, desconto, valor_troco: real
 		qtd, desconto_porcentagem: inteiro
 		troco: logico
