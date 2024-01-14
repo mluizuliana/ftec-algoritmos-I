@@ -3,9 +3,9 @@ var
        n1, n2, subtracao, soma: inteiro
 inicio
 
-      escreval("Digite o primeiro número: ")
+      escreval("Digite o primeiro nÃºmero: ")
       leia(n1)
-      escreval("Digite o segundo número: ")
+      escreval("Digite o segundo nÃºmero: ")
       leia(n2)
       se (n1 <> n2) entao
          subtracao <- n1 - n2
