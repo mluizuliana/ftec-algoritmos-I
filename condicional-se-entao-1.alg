@@ -1,4 +1,4 @@
-algoritmo "Temperatura"
+algoritmo "temperatura"
 var
   temperatura: inteiro
 inicio
