@@ -1,4 +1,4 @@
-algoritmo "exemploCondicional"
+algoritmo "Temperatura"
 var
   temperatura: inteiro
 inicio
