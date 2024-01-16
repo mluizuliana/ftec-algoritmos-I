@@ -1,12 +1,13 @@
 algoritmo "condicional-aninhada-1"
 var
-   // Escreva um algoritmo que leia um número que escreva “positivo”, caso o número digitado seja maior que zero, “negativo” caso o número seja menor que zero ou “neutro” se o número for igual a zero.
+
+   // Escreva um algoritmo que leia um nÃºmero que escreva â€œpositivoâ€, caso o nÃºmero digitado seja maior que zero, â€œnegativoâ€ caso o nÃºmero seja menor que zero ou â€œneutroâ€ se o nÃºmero for igual a zero.
 
    n1: inteiro
 
 inicio
 
-      escreval("Digite um número: ")
+      escreval("Digite um nÃºmero: ")
       leia(n1)
       se (n1 > 0) entao
          escreval("Positivo")
