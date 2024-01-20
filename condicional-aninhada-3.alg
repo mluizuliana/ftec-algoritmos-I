@@ -18,17 +18,21 @@ inicio
       se (n1 = 0) ou (n2 = 0) ou (n3 = 0) entao
          escreval("não é um triângulo")
       senao
-           se (n1 = n2) e (n2 = n3) entao
-              escreval("é um triângulo equilátero (todos os lados iguais)")
-           senao
+					se (n1 + n2 = n3) ou (n2 + n3 = n1) ou (n3 + n1 = n2) entao
+							escreval("não é um triângulo")
+					senao 
+	           se (n1 = n2) e (n2 = n3) entao
+               escreval("é um triângulo equilátero (todos os lados iguais)")
+             senao
                 se (n1 = n2) ou (n2 = n3) entao
-                escreval("é um triângulo isósceles (dois lados iguais)")
+                   escreval("é um triângulo isósceles (dois lados iguais)")
                 senao
                      se (n1 <> n2) e (n2 <> n3) e (n3 <> n1) entao
                         escreval("é um triângulo escaleno (todos os lados diferentes)")
                      fimse
                 fimse
-           fimse
+            fimse
+          fimse
        fimse
        
 fimalgoritmo
