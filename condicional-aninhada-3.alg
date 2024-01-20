@@ -1,32 +1,31 @@
 algoritmo "condicional-aninhada-3"
 var
-     // Escreva um algoritmo que leia trÍs n˙meros inteiros que representam as dimensıes de um possÌvel tri‚ngulo. Esse algoritmo deve verificar primeiramente se as dimensıes formam um tri‚ngulo, escrevendo ìn„o È um tri‚nguloî quando n„o formar. Caso forme um tri‚ngulo, o algoritmo deve classific·-lo como equil·tero, isÛsceles ou escaleno. Segue as regras:
+     // Escreva um algoritmo que leia tr√™s n√∫meros inteiros que representam as dimens√µes de um poss√≠vel tri√¢ngulo. Esse algoritmo deve verificar primeiramente se as dimens√µes formam um tri√¢ngulo, escrevendo ‚Äún√£o √© um tri√¢ngulo‚Äù quando n√£o formar. Caso forme um tri√¢ngulo, o algoritmo deve classific√°-lo como equil√°tero, is√≥sceles ou escaleno. Segue as regras:
 
-     // Para formar um tri‚ngulo, nenhum dos lados pode ter comprimento igual a zero e nenhum dos lados pode ter comprimento igual a soma dos demais lados.
-     // Para ser um tri‚ngulo equil·tero, todos os lados devem ter o mesmo comprimento.
-     // Para ser um tri‚ngulo isÛsceles, dois lados devem possuir o mesmo comprimento.
-     // Para ser um tri‚ngulo escaleno, todos os lados devem possuir comprimentos diferentes.
+     // Para formar um tri√¢ngulo, nenhum dos lados pode ter comprimento igual a zero e nenhum dos lados pode ter comprimento igual a soma dos demais lados.
+     // Para ser um tri√¢ngulo equil√°tero, todos os lados devem ter o mesmo comprimento.
+     // Para ser um tri√¢ngulo is√≥sceles, dois lados devem possuir o mesmo comprimento.
+     // Para ser um tri√¢ngulo escaleno, todos os lados devem possuir comprimentos diferentes.
      
       n1, n2, n3: inteiro
      
 inicio
       
-
-      escreval("Escreva 3 n˙meros: ")
+      escreval("Escreva 3 n√∫meros: ")
       leia(n1)
       leia(n2)
       leia(n3)
       se (n1 = 0) ou (n2 = 0) ou (n3 = 0) entao
-         escreval("n„o È um tri‚ngulo")
+         escreval("n√£o √© um tri√¢ngulo")
       senao
            se (n1 = n2) e (n2 = n3) entao
-              escreval("È um tri‚ngulo equil·tero (todos os lados iguais)")
+              escreval("√© um tri√¢ngulo equil√°tero (todos os lados iguais)")
            senao
                 se (n1 = n2) ou (n2 = n3) entao
-                escreval("È um tri‚ngulo isÛsceles (dois lados iguais)")
+                escreval("√© um tri√¢ngulo is√≥sceles (dois lados iguais)")
                 senao
                      se (n1 <> n2) e (n2 <> n3) e (n3 <> n1) entao
-                        escreval("È um tri‚ngulo escaleno (todos os lados diferentes)")
+                        escreval("√© um tri√¢ngulo escaleno (todos os lados diferentes)")
                      fimse
                 fimse
            fimse
