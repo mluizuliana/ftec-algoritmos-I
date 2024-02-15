@@ -5,53 +5,53 @@ var
 
 inicio
 
-      //Escreva um algoritmo que leia 5 números - o maior e o menor dos 5 números.
+      //Escreva um algoritmo que leia 5 nÃºmeros - o maior e o menor dos 5 nÃºmeros.
       
-      escreval("Digite 5 números: ")
+      escreval("Digite 5 nÃºmeros: ")
       leia(n1)
       leia(n2)
       leia(n3)
       leia(n4)
       leia(n5)
 
-           //Análise maior número
+           //AnÃ¡lise maior nÃºmero
            
            se (n1 > n2) e (n1 > n3) e (n1 > n4) e (n1 > n5) entao
-              escreval("O maior número é: ",n1)
+              escreval("O maior nÃºmero Ã©: ",n1)
            senao
                 se (n2 > n1) e (n2 > n3) e (n2 > n4) e (n2 > n5) entao
-                   escreval("O maior número é: ",n2)
+                   escreval("O maior nÃºmero Ã©: ",n2)
                 senao
                      se (n3 > n1) e (n3 > n2) e (n3 > n4) e (n3 > n5) entao
-                        escreval("O maior número é: ",n3)
+                        escreval("O maior nÃºmero Ã©: ",n3)
                      senao
                           se (n4 > n1) e (n4 > n2) e (n4 > n3) e (n4 > n5) entao
-                                 escreval("O maior número é: ",n4)
+                                 escreval("O maior nÃºmero Ã©: ",n4)
                              senao
                                   se (n5 > n1) e (n5 > n2) e (n5 > n3) e (n5 > n4) entao
-                                     escreval("O maior número é: ",n5)
+                                     escreval("O maior nÃºmero Ã©: ",n5)
                                   fimse
                           fimse
                      fimse
                 fimse
            fimse
            
-           //Análise menor número
+           //AnÃ¡lise menor nÃºmero
            
            se (n1 < n2) e (n1 < n3) e (n1 < n4) e (n1 < n5) entao
-              escreval("O menor número é: ",n1)
+              escreval("O menor nÃºmero Ã©: ",n1)
            senao
                 se (n2 < n1) e (n2 < n3) e (n2 < n4) e (n2 < n5) entao
-                   escreval("O menor número é: ",n2)
+                   escreval("O menor nÃºmero Ã©: ",n2)
                 senao
                      se (n3 < n1) e (n3 < n2) e (n3 < n4) e (n3 < n5) entao
-                        escreval("O menor número é: ",n3)
+                        escreval("O menor nÃºmero Ã©: ",n3)
                      senao
                           se (n4 < n1) e (n4 < n2) e (n4 < n3) e (n4 < n5) entao
-                                 escreval("O menor número é: ",n4)
+                                 escreval("O menor nÃºmero Ã©: ",n4)
                              senao
                                   se (n5 < n1) e (n5 < n2) e (n5 < n3) e (n5 < n4) entao
-                                     escreval("O menor número é: ",n5)
+                                     escreval("O menor nÃºmero Ã©: ",n5)
                                   fimse
                           fimse
                      fimse
