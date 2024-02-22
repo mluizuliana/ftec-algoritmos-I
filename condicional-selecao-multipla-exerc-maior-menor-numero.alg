@@ -1,4 +1,4 @@
-algoritmo "selecao-multipla-escolha-maior-menor-numero"
+algoritmo "condicional-selecao-multipla-maior-menor-numero"
 var
 
    n1,n2,n3,n4,n5: inteiro
