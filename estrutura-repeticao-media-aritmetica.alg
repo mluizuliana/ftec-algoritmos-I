@@ -2,13 +2,14 @@ algoritmo "estrutura-repeticao-media-aritmetica"
 var
     quantidade, numero, soma, incremento: inteiro
     media: real
+
 inicio
 
-      escreval("Digite a quantidade de números: ")
+      escreval("Digite a quantidade de nÃºmeros: ")
       leia(quantidade)
       soma <- 0
       
-      // estrutura de repetição
+      // estrutura de repetiÃ§Ã£o
       
       para incremento de 1 ate quantidade faca
           escreval("Digite o numero: ", incremento)
@@ -16,10 +17,10 @@ inicio
           soma <- soma + numero
       fimpara
 
-      // calculo da média
+      // calculo da mÃ©dia
       
       media <- soma / quantidade
-      escreval("A média dos números digitados é: ", media)
+      escreval("A mÃ©dia dos nÃºmeros digitados Ã©: ", media)
       
 fimalgoritmo
 
