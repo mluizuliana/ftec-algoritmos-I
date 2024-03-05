@@ -4,7 +4,7 @@ var
 
 inicio
 
-   // Produza um algoritmo que escreva os primeiros 500 números pares.
+   // Produza um algoritmo que escreva os primeiros 500 nÃºmeros pares.
 
    cont <- 0
 
@@ -17,11 +17,8 @@ inicio
 
       se cont = 500 entao
          escreval("fimalgoritmo")
-         interrompa // Pare o loop quando os 500 números pares foram encontrados
+         interrompa // Pare o loop quando os 500 nÃºmeros pares foram encontrados
       fimse
       
    fimpara
 fimalgoritmo
-
-
-
