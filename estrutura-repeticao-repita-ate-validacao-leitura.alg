@@ -1,4 +1,4 @@
-algoritmo "estrutura-repeticao-repita-validacao-leitura"
+algoritmo "estrutura-repeticao-repita-exemp-validacao-leitura"
 var
 
  numero,soma: inteiro
@@ -6,7 +6,7 @@ var
 inicio
 
     repita
-          escreval("Digite um número no intervalo de [10 a 100]: ")
+          escreval("Digite um nÃºmero no intervalo de [10 a 100]: ")
           leia(numero)
           se (numero < 10) ou (numero > 100) entao
              escreval("O numero lido esta fora do intervalo. Redigite !")
