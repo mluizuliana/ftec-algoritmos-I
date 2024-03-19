@@ -6,20 +6,22 @@ Var
 
 Inicio
 
+   // screva um algoritmo que leia nÃºmeros inteiros e apresente o fatorial de cada nÃºmero. Encerre o algoritmo quando o usuÃ¡rio digitar um nÃºmero negativo
+
    repita
    
-      escreva("Digite um número inteiro positivo: ")
+      escreva("Digite um nÃºmero inteiro positivo: ")
       leia(num)
 
-      se num >= 0 então
+      se num >= 0 entÃ£o
          fatorial := 1
          para i de 1 ate num faca
             fatorial := fatorial * i
          fimpara
-         escreva("O fatorial de ", num, " é: ", fatorial)
+         escreva("O fatorial de ", num, " Ã©: ", fatorial)
          escreval("")
-      senão
-         escreval("Número negativo. Encerrando o programa.")
+      senÃ£o
+         escreval("NÃºmero negativo. Encerrando o programa.")
       fimse
 
    ate num < 0
