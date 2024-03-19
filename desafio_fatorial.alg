@@ -6,7 +6,7 @@ Var
 
 Inicio
 
-   // screva um algoritmo que leia números inteiros e apresente o fatorial de cada número. Encerre o algoritmo quando o usuário digitar um número negativo
+   // Escreva um algoritmo que leia números inteiros e apresente o fatorial de cada número. Encerre o algoritmo quando o usuário digitar um número negativo
 
    repita
    
